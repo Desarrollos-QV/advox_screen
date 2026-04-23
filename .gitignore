@@ -1,0 +1,11 @@
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# XAMPP / Temp files
+*.tmp
+*.log
+
+# IDEs
+.vscode/
+.idea/
