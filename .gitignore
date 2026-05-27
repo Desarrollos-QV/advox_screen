@@ -1,11 +1,10 @@
-# OS generated files
-.DS_Store
-Thumbs.db
+# Ignorar absolutamente todo por defecto en la raíz del proyecto
+/*
 
-# XAMPP / Temp files
-*.tmp
-*.log
+# EXCEPCIONES:
 
-# IDEs
-.vscode/
-.idea/
+# Permitir subir el propio archivo .gitignore
+!.gitignore
+
+# Permitir subir únicamente la carpeta compilada 'dist' y todo su contenido
+!/dist/
